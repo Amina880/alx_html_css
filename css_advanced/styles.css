@@ -1,0 +1,209 @@
+
+@font-face {
+    font-family: 'SourceSansPro', sans-serif;
+    src: 
+    local('/Users/deborahkalekwa/Library/Fonts/SourceSansPro-Bold.otf'), 
+    local('/Users/deborahkalekwa/Library/Fonts/SourceSansPro-Light.otf'),
+    local('/Users/deborahkalekwa/Library/Fonts/SourceSansPro-Black.otf'),
+    local('/Users/deborahkalekwa/Library/Fonts/SourceSansPro-BlackIt.otf'),
+    local('/Users/deborahkalekwa/Library/Fonts/SourceSansPro-BoldIt.otf'),
+    local('/Users/deborahkalekwa/Library/Fonts/SourceSansPro-ExtraLight.otf'),
+    local('/Users/deborahkalekwa/Library/Fonts/SourceSansPro-Regular.otf'),
+    local('/Users/deborahkalekwa/Library/Fonts/SourceSansPro-Semibold.otf'),
+    local('/Users/deborahkalekwa/Library/Fonts/SourceSansPro-ExtraLightIt.otf'),
+    local('/Users/deborahkalekwa/Library/Fonts/SourceSansPro-It.otf'),
+    local('/Users/deborahkalekwa/Library/Fonts/SourceSansPro-LightIt.otf'),
+    local('/Users/deborahkalekwa/Library/Fonts/SourceSansPro-SemiboldIt.otf');
+  }
+body {
+    font-family: 'SourceSansPro', sans-serif; 
+    color: var(--nav-text);
+    margin: auto;
+    line-height: 1.6;
+    body {min-width:300px;}
+  }
+:root{--nav-text:#ffffff;
+    --background-color:#C271FF;
+    --heading-color:#071629;
+    --text-color:#071629 50%;
+    --text-color2:#D8D8D8;
+    --colour-3:#000000;
+    --background-colour2:#F2F2F2;
+  }
+.background{
+    background-image: url(Object.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    width: auto;
+    height: 1055px;
+    min-width: auto;
+}
+.button{
+    background-color: var(--background-color);
+    color: var(--nav-text);
+    text-align: center;
+    font-size: 16px;
+    margin: auto;
+    border: none;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)
+}
+.buttondiv{
+    margin: auto;
+    width: 5%;
+    max-width: fit-content;
+    padding: 10px;
+    white-space: nowrap;
+}
+.logo{
+    height: 30px;
+    width: 170;
+    padding-right: 40px;
+    margin: auto;
+    margin-left: 35px;
+   
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 1100px;
+    padding: 60px;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+nav{
+    justify-content: space-between;
+    margin-left: 35px;
+}
+nav a{
+    color: var(--nav-text);
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 12px;
+    text-align: center;
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    margin-right: 35px;
+}
+header nav ul li {
+    padding: 20px;
+    margin: 0 10px;
+}
+nav ul li {
+    list-style-type: none;
+}
+h1{
+    font-size: 120px;
+    max-width: fit-content;
+    width: 684px;
+    height: 151px;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    white-space: nowrap;
+    line-height: 2;
+    margin-bottom: auto;
+}
+.subheading{
+    font-size: 20px;
+    font-weight: bold;
+    width: 5%;
+    height: 16px;
+    text-align:center;
+    white-space: nowrap;
+    line-height: 2;
+    margin: auto;
+    justify-content: space-between;
+    padding: 60px;
+}
+.subheading span{
+    margin-left: 5px;
+}
+.h2_learn{
+    margin: auto;
+    width: 10%;
+    max-width: fit-content;
+    white-space: nowrap;
+    font-weight: 60;
+    font-size: 32px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.h2_learn span{
+    color: #C271FF;
+    font-weight: bold;
+}
+.pros{
+    display: flex;
+    justify-content: space-between;
+    width: 1009px;
+    height: 237px;
+    padding-top: 30px;
+    margin: auto; 
+}
+.p1,.p2,.p3,.p4{
+    width: 150px;
+    height: 237px;
+    text-align: center;
+}
+.p_for_pro{
+    text-wrap: wrap;
+    font-size: 16px;
+    font-style: italic;
+}
+.h3_pro{
+    font-size: 18px;
+    font-weight: bolder;
+}
+.quote_block{
+    width: 1440px;
+    height: 392px;
+    background-color: var(--background-color);
+    margin: auto;
+}
+.actual_quote{
+    width: 943px;
+    height: 160px;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+    margin: auto;
+}
+.quote{
+    text-align: left;
+    width: 730px;
+    height: auto;
+    font-size: 22px;
+    margin: auto;
+}
+blockquote{
+    font-weight: 60;
+    width: 730px;
+    height: 68px;
+    margin: 0;
+}
+.wp{
+    font-weight: 60;
+    font-style: italic;
+}
+.h3_name{
+    width: 129px;
+    height: 15px;
+    font-weight: bold;
+    text-wrap: nowrap;
+    font-size: 22px;
+}
+
