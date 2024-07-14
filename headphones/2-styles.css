@@ -120,6 +120,8 @@ max width of the content: 1000px centered in the page*/
     font-weight: lighter;
     font-size: 16px;
     padding-top: 80px;
+    padding-left: 60px;
+    padding-right: 60px;
   }
   .button{
     background-color: var(--orange-color);
@@ -200,6 +202,20 @@ max width of the content: 1000px centered in the page*/
     .first-section p{
         padding-top: 50px;
     }
+    .background-2{
+        width: 100%; 
+        margin: 0px auto;
+        height: 100%;
+        text-align: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-clip: border-box;
+    }
+    .pentas{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
   }
   nav input[type='checkbox'], nav label {
     display: none;
@@ -236,6 +252,33 @@ max width of the content: 1000px centered in the page*/
     margin: 20px;
     width: 207px;
   }
-
- 
+  .background-2{
+    background-image: url(/images/headphones_hero_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    width: auto;
+    height: 100%;
+    min-width: auto;
+  }
+  .results h3{
+    padding-top: 170px;
+  }
+  .results p{
+    font-weight: lighter;
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  .pentas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+  }
+  .one-penta{
+    margin: 20px;
+    width: 207px;
+  }
   
